@@ -66,7 +66,7 @@ local Library = {}; do
         end;
 
         if not isfile(Library.FolderName .. '/Utilities/Shadow.png') then
-            writefile(Library.FolderName .. '/Utilities/Shadow.png', game:HttpGet(""));
+            writefile(Library.FolderName .. '/Utilities/Shadow.png', game:HttpGet("https://github.com/CanGasMask/Library/blob/main/images/Shadow.png"));
         end;
 
         if not isfile(Library.FolderName .. '/Utilities/Logo.png') then
