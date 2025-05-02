@@ -171,7 +171,7 @@ end
     end 
 
     if not isfile(library.directory .. "/fonts/main.ttf") then 
-        writefile(library.directory .. "/fonts/main.ttf", game:HttpGet("https://github.com/CanGasMask/fonts/blob/main/ProggyClean.ttf"))
+        writefile(library.directory .. "/fonts/main.ttf", game:HttpGet("https://github.com/CanGasMask/fonts/blob/main/Pixel.ttf"))
     end 
     
     local tahoma = {
