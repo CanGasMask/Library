@@ -12,7 +12,7 @@ if not LPH_OBFUSCATED then
     LPH_CRASH = function() return print(debug.traceback()) end
 end;
 
-local Tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/vozoid/utility/main/Tween.lua"))();
+local Tween = loadstring(game:HttpGet("https://raw.githubusercontent.com/CanGasMask/Library/refs/heads/main/Tween.lua"))();
 
 local library = {};
 do 
